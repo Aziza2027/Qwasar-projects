@@ -2,13 +2,13 @@
 ## Technical specifications
 
 
-### Part I SQLtoCSV.
+### Part I SQL to CSV.
 We will start with the SQL format to CSV
 
 Your function will receives a connection (an sqlite3 object from import sqlite3 which will be already connected), table_name.
 Your function will transform the content of table_name to CSV format and return it. (Columns separated by comma and rows separated by \n)
 
-### Part II CSVtoSQL
+### Part II CSV to SQL
 Your function will transform the content to SQL format by creating and the table_name and adding each rows to it.
 
 ### Part III
